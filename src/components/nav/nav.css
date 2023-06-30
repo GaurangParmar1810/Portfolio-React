@@ -6,7 +6,7 @@ nav {
     position: fixed;
     left: 50%;
     transform: translateX(-50%);
-    bottom: 2rem;
+    bottom: 1rem;
     display: flex;
     gap: 1.2rem;
     border-radius: 3rem;
