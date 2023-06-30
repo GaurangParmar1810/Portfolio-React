@@ -45,16 +45,40 @@ header{
     background: var(--color-primary);
 }
 
-.my-img{
-    background: linear-gradient(var(--color-primary),transparent);
+.my-img {
+    background: linear-gradient(var(--color-primary), transparent);
     width: 22rem;
     height: 30rem;
     position: relative;
-    margin:auto;    
-    margin-top: 4rem;
+    margin: 2rem auto;
     border-radius: 12rem 12rem 0 0;
     overflow: hidden;
     padding: 5rem 1.5rem 1.5rem 1.5rem;
+    transition: transform 0.3s ease-in-out;
+    transform-origin: center center;
+    filter: blur(0); /* Set initial blur value */
+}
+
+.my-img:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: inherit;
+    filter: blur(5px); /* Apply the blur effect */
+    z-index: -1;
+    opacity: 0; /* Hide the pseudo-element initially */
+    transition: opacity 0.3s ease-in-out; /* Add transition for opacity */
+}
+
+.my-img:hover {
+    transform: scale(1.1);
+}
+
+.my-img:hover:before {
+    opacity: 1; /* Show the pseudo-element on hover */
 }
 
 /* scroll-down */
