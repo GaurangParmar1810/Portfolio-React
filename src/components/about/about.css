@@ -28,17 +28,32 @@
     place-items: center;
 }
 
-.about__me-image{
-    border-radius: 2rem;
-    overflow: hidden;
-    transform: rotate(10deg);
-    transition: var(--transition);
+/*Changing*/
+
+.about__me-image {
+  width: 100%;
+  height: 100%;
+  border-radius: 1rem;
+  overflow: hidden;
+  transform: rotate(10deg);
+  transition: var(--transition);
 }
 
-.about__me-image:hover{
-    transform: rotate(0deg);
+.about__me-image:hover {
+  transform: rotate(0deg);
+  filter: brightness(90%);
 }
 
+.about__me-image img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+  
+/**/
 .about__cards{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
