@@ -22,6 +22,7 @@
     --color-light: rgba(255, 255, 255, 0.6);
 
     --transition: all 400ms ease;
+    --transition-slower: all 750ms ease;
 
     --coniner-width-lg: 75%;
     --coniner-width-md: 86%;
