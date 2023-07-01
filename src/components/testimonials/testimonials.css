@@ -1,48 +1,61 @@
-.container.testimonials__container{
-    width :40%;
-    padding-bottom: 4rem;
+.container.testimonials__container {
+  width: 60%;
+  padding-bottom: 4rem;
 }
 
 .colleague_image {
-    width: 7rem;
-    aspect-ratio: 1/1;
-    overflow: hidden;
-    border-radius: 50%;
-    margin: 0 auto 1rem;
-    border: 0.2rem solid var(--color-primary-variant);
-}   
-
-.testimonial {
-    background: var(--color-bg-variant);
-    text-align: center;
-    padding: 2rem;
-    border-radius: 2rem;
-    /* user-select: none; */
+  width: 7rem;
+  aspect-ratio: 1/1;
+  overflow: hidden;
+  border-radius: 50%;
+  margin: 0 auto 1rem;
+  border: 0.2rem solid var(--color-primary-variant);
 }
 
-.colleague_review{
-    color: var(--color-light);
-    font-weight: 300;
-    display: block;
-    width:80%;
-    margin:0.8rem auto 0;
+.testimonial {
+  background: var(--color-bg-variant);
+  text-align: center;
+  padding: 2rem;
+  border-radius: 2rem;
+  /* user-select: none; */
+}
+
+.colleague_review {
+  color: var(--color-light);
+  font-weight: 300;
+  display: block;
+  width: 80%;
+  margin: 0.8rem auto 0;
 }
 
 /* Media query for medium devices */
-
-@media screen and (max-width: 1024px){
-    .container .testimonials__container{
-        width :60%;
-    }
+@media screen and (max-width: 1024px) {
+  .container .testimonials__container {
+    width: 60%;
+  }
 }
 
 /* Media query for small devices */
+@media screen and (max-width: 600px) {
+  .container.testimonials__container {
+    width: var(--container-width-sm);
+  }
+  .colleague_review {
+    width: var(--container-width-sm);
+  }
+}
 
-@media screen and (max-width: 600px){
-    .container.testimonials__container{
-        width :var(--container-width-sm);
-    }
-    .colleague_review{
-        width: var(--container-width-sm);
-    }
+/* Stylish slide effect with slow transition */
+.swiper-container {
+  overflow: hidden;
+  position: relative;
+}
+
+.swiper-slide {
+  opacity: 0;
+  transition: opacity 1s ease;
+}
+
+.swiper-slide-active {
+  opacity: 1;
 }

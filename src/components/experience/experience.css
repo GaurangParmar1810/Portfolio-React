@@ -40,7 +40,7 @@
     font-size: 1.4rem;
     line-height: 1; /* Add line-height property */
     display: grid;
-    grid-template-columns: 0.2fr,1fr;
+    /* grid-template-columns: ; */
     margin-right: 0.5rem; /* Adjust margin as desired */
 }
 
