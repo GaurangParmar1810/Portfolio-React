@@ -25,55 +25,55 @@ const data = [
     id: 1,
     name: 'Agam Mistry',
     image: AGAM,
-    review: 'review'
+    review: 'My coworker is a quick learner who is constantly willing to pick up new skills and expertise. We collaborated on several academic projects, and I saw personally his capacity to understand complicated topics and apply them efficiently.'
   },
   {
     id: 2,
     name: 'Aditya Jadeja',
     image: ADITYA,
-    review: 'review'
+    review: 'Gaurang has demonstrated skills in academic projects in addition to his strong coding and problem-solving abilities. His dedicated work and attention to detail have resulted in effective project results that have received favourable reviews from our lecturers.'
   },
   {
     id: 3,
     name: 'Harsh Parmar',
     image: HARSH,
-    review: 'review'
+    review: 'Gaurang continually shows strong programming skills and logical thinking. However, one area where he could have an opportunity to get better is in his documentation skills. He is urged to concentrate on project documentation in order to nurture teamwork.'
   },
   {
     id: 4,
     name: 'Chintan Kanpariya',
     image: CHINTAN,
-    review: 'review'
+    review: 'Gaurang has consistently demonstrated leadership qualities in multiple projects on which we collaborated. He gives leadership and direction, ensuring that our initiatives stay on track and that deadlines are met.'
   },
   {
     id: 5,
     name: 'Darshit Bhakhar',
     image: DARSHIT,
-    review: 'review'
+    review: 'Although Gaurang excels in technical areas, he has the capacity to increase his knowledge of the financial side of projects. '
   },
   {
     id: 6,
     name: 'Dharva Patel',
     image: DHARVA,
-    review: 'review'
+    review: `My colleague's sense of humour has made our collaboration pleasurable outside of the academics. He brings a positive and light-hearted attitude to the team which creates a pleasant and motivating work atmosphere.`
   },
   {
     id: 7,
     name: 'Manan Dankhara',
     image: MANAN,
-    review: 'review'
+    review: 'He is skilled at communicating complex technological concepts to non-technical people. '
   },
   {
     id: 8,
     name: 'Parth Patel',
     image: PARTH,
-    review: 'review'
+    review: 'Gaurang is a good programmer and problem solver who works well with colleagues. He will remain a valued asset with continued leadership growth.'
   },
   {
     id: 9,
     name: 'Parth Prajapati',
     image: PARTH_,
-    review: 'review'
+    review: 'If the deadline is near then he is the person on whom I can put my trust on. He is a quick learner and a good team player.'
   }
 ];
 const Testimonials = () => {
