@@ -40,8 +40,8 @@ const Portfoliyo = () => {
                   <h3>{item.title}</h3>
                   <p>{item.discription}</p>
                   <div className="portfoliyo__item-cta">
-                    <a href={item.github} className="btn" target="_blank">Github</a>
-                    <a href={item.demo} className='btn btn-primary' target="_blank">Live Demo</a>
+                    <a href={item.github} className="btn m-auto" target="_blank">Github</a>
+                    <a href={item.demo} className='btn btn-primary m-auto' target="_blank">Live Demo</a>
                   </div>
                 </div>
               </article>

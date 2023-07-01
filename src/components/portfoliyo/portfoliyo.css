@@ -1,44 +1,68 @@
-.portfoliyo__container {
-    padding: 3rem;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    gap: 5rem;
+.portfoliyo__container{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
 }
 
-.portfoliyo__item {
-    flex-basis: calc(50% - 2.5rem);
+.portfoliyo__item{
     background: var(--color-bg-variant);
-    padding: 1rem;
-    margin-bottom: 2rem;
-    border-radius: 0.7rem;
+    padding: 2rem;
+    border-radius: 2rem;
+    margin: 1rem;
     border: 1px solid transparent;
     transition: var(--transition);
+    cursor: pointer;
     display: grid;
-    grid-template-columns: 0.2fr 1fr;
-    gap: 1rem;
+    grid-template-columns: 1fr;
+    place-items: center;
 }
 
-.portfoliyo__item:hover {
+.portfoliyo__item:hover{
+    background:transparent;
     border-color: var(--color-primary-variant);
-    background: transparent;
-}
-
-.portfoliyo__item-content p {
-    margin-top: 1rem;
-    color: var(--color-light);
-}
-
-.portfoliyo__item-cta {
-    display: flex;
-    gap: 1rem;
-    padding: 1rem 0 1rem;
-    margin-bottom: 1;
 }
 
 .portfoliyo__item-image {
-    max-width: 100%;
-    height: auto;
-    border-radius: 1.5rem;
+    width: 100px; /* Adjust to your desired width */
+    height: 100px; /* Adjust to your desired height */
+    border-radius: 50%;
     overflow: hidden;
+    
+}
+
+.portfoliyo__item-content{
+    display: grid;
+    grid-template-columns: 1fr;
+    place-items: center;
+}
+
+.portfoliyo__item-content p{
+    text-align: justify;
+    padding-top: 0.5rem;
+    color: var(--color-light);
+}
+
+.portfoliyo__item-content h3{
+    text-align: center;
+    padding-top: 0.5rem;
+    font-weight: 500;
+    color: var(--color-primary);
+}
+
+.portfoliyo__item-cta{
+    margin-top: 2.5rem;
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+
+@media screen and (max-width: 1024px){
+    .portfoliyo__container{
+        grid-template-columns: repeat(1,1fr);
+    }
+}
+
+@media screen and (max-width: 600px){
+    .portfoliyo__container{
+        grid-template-columns: repeat(1,1fr);
+    }
 }
