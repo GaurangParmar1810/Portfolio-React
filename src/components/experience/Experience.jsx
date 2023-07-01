@@ -16,7 +16,9 @@ const Experience = () => {
           <div className="experience__content">
 
             <article className="experience_detail">
-              <GiAchievement className="experience_detail-icon" />
+              <div>
+                <GiAchievement className="experience_detail-icon" /> 
+              </div>
               <div>
                 <h4>HTML</h4>
                 <small className="text-light">Intermediate-experienced</small>
@@ -24,7 +26,9 @@ const Experience = () => {
             </article>
 
             <article className="experience_detail">
-              <GiAchievement className="experience_detail-icon" />
+              <div>
+                <GiAchievement className="experience_detail-icon" /> 
+              </div>
               <div>
                 <h4>CSS</h4>
                 <small className="text-light">Basic-Intermediate</small>
@@ -32,7 +36,9 @@ const Experience = () => {
             </article>
 
             <article className="experience_detail">
-              <GiAchievement className="experience_detail-icon" />
+              <div>
+                <GiAchievement className="experience_detail-icon" /> 
+              </div>
               <div>
                 <h4>Bootstrap</h4>
                 <small className="text-light">Intermediate</small>
@@ -40,7 +46,9 @@ const Experience = () => {
             </article>
 
             <article className="experience_detail">
-              <GiAchievement className="experience_detail-icon" />
+              <div>
+                <GiAchievement className="experience_detail-icon" /> 
+              </div>
               <div>
                 <h4>React</h4>
                 <small className="text-light">Intermediate</small>
@@ -56,7 +64,9 @@ const Experience = () => {
             
             
             <article className="experience_detail">
-              <GiAchievement className="experience_detail-icon" />
+              <div>
+                <GiAchievement className="experience_detail-icon" /> 
+              </div>
               <div>
                 <h4>C++</h4>
                 <small className="text-light">Intermediate-experienced</small>
@@ -64,7 +74,9 @@ const Experience = () => {
             </article>
 
             <article className="experience_detail">
-              <GiAchievement className="experience_detail-icon" />
+              <div>
+                <GiAchievement className="experience_detail-icon" /> 
+              </div>
               <div>
                 <h4>C</h4>
                 <small className="text-light">Intermediate</small>
@@ -72,7 +84,9 @@ const Experience = () => {
             </article>
 
             <article className="experience_detail">
-              <GiAchievement className="experience_detail-icon" />
+              <div>
+                <GiAchievement className="experience_detail-icon" /> 
+              </div>
               <div>
                 <h4>DSA</h4>
                 <small className="text-light">Intermediate-experienced</small>
@@ -80,7 +94,9 @@ const Experience = () => {
             </article>
 
             <article className="experience_detail">
-              <GiAchievement className="experience_detail-icon" />
+              <div>
+                <GiAchievement className="experience_detail-icon" /> 
+              </div>
               <div>
                 <h4>OOPs</h4>
                 <small className="text-light">Intermediate</small>
@@ -88,7 +104,9 @@ const Experience = () => {
             </article>
             
             <article className="experience_detail">
-              <GiAchievement className="experience_detail-icon" />
+              <div>
+                <GiAchievement className="experience_detail-icon" /> 
+              </div>
               <div>
                 <h4>Problem Solving</h4>
                 <small className="text-light">Intermediate</small>
@@ -96,7 +114,9 @@ const Experience = () => {
             </article>
 
             <article className="experience_detail">
-              <GiAchievement className="experience_detail-icon" />
+              <div>
+                <GiAchievement className="experience_detail-icon" /> 
+              </div>
               <div>
                 <h4>Competitive Coding</h4>
                 <small className="text-light">Intermediate</small>
@@ -111,7 +131,9 @@ const Experience = () => {
           <div className="experience__content">
             
             <article className="experience_detail">
-              <GiAchievement className="experience_detail-icon" />
+              <div>
+                <GiAchievement className="experience_detail-icon" /> 
+              </div>
               <div>
                 <h4>Node.js</h4>
                 <small className="text-light">Intermediate</small>
@@ -119,7 +141,9 @@ const Experience = () => {
             </article>
 
             <article className="experience_detail">
-              <GiAchievement className="experience_detail-icon" />
+              <div>
+                <GiAchievement className="experience_detail-icon" /> 
+              </div>
               <div>
                 <h4>Mongodb</h4>
                 <small className="text-light">Basic-Intermediate</small>
@@ -127,7 +151,9 @@ const Experience = () => {
             </article>
 
             <article className="experience_detail">
-              <GiAchievement className="experience_detail-icon" />
+              <div>
+                <GiAchievement className="experience_detail-icon" /> 
+              </div>
               <div>
                 <h4>MySQL</h4>
                 <small className="text-light">Intermediate</small>
@@ -135,7 +161,9 @@ const Experience = () => {
             </article>
 
             <article className="experience_detail">
-              <GiAchievement className="experience_detail-icon" />
+              <div>
+                <GiAchievement className="experience_detail-icon" /> 
+              </div>
               <div>
                 <h4>Flask</h4>
                 <small className="text-light">Basic</small>

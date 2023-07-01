@@ -39,7 +39,8 @@
     color: var(--color-primary);
     font-size: 1.4rem;
     line-height: 1; /* Add line-height property */
-    flex-shrink: 0;
+    display: grid;
+    grid-template-columns: 0.2fr,1fr;
     margin-right: 0.5rem; /* Adjust margin as desired */
 }
 
