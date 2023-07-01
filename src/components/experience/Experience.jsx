@@ -7,7 +7,7 @@ import {GiAchievement } from 'react-icons/gi'
 const Experience = () => {
   return (
     <section id="experience">
-      <h5>The skills I have</h5>
+      <h5>A Person only need is the</h5>
       <h2>Skills</h2>
       <div className="container experience__container">
         
