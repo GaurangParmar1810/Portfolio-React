@@ -34,7 +34,7 @@ const Nav = () => {
   }, []);
 
   return (
-    <nav className={isNavVisible ? 'show' : ''}>
+    <nav className={isNavVisible ? 'show' : 'hide'}>
       <a href="#" onClick={() => setActiveNav('#')} className={activeNav === '#' ? 'active' : ''} title="Home" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}> <AiOutlineHome /> 
         <span className="tooltip">{tootlTips}</span>
       </a>
