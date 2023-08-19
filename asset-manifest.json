@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/Portfolio-React/static/css/main.d366efdf.css",
-    "main.js": "/Portfolio-React/static/js/main.04c55ce2.js",
+    "main.js": "/Portfolio-React/static/js/main.7eb79bee.js",
     "static/media/my_img.png": "/Portfolio-React/static/media/my_img.b68ccc1a246081e5ab6e.png",
     "static/media/about_me.jpg": "/Portfolio-React/static/media/about_me.19db34a6b8dfe0056e57.jpg",
     "static/media/manan.jpg": "/Portfolio-React/static/media/manan.a4b3ffd94f5a89fc0a98.jpg",
     "static/media/chintan.jpg": "/Portfolio-React/static/media/chintan.1391c977eaf3b531a8bc.jpg",
     "static/media/parth.jpg": "/Portfolio-React/static/media/parth.948d261a32f1988ef97b.jpg",
     "static/media/parth_.jpg": "/Portfolio-React/static/media/parth_.fabb86bd033be31aebbf.jpg",
-    "static/media/Gaurang_Parmar_CV.pdf": "/Portfolio-React/static/media/Gaurang_Parmar_CV.6803ed2b6171618b47a2.pdf",
+    "static/media/Gaurang_Parmar_CV.pdf": "/Portfolio-React/static/media/Gaurang_Parmar_CV.0a2926409fe3fdaa82cc.pdf",
     "static/media/darshit.jpg": "/Portfolio-React/static/media/darshit.0545c9075da0482f8b2c.jpg",
     "static/media/agam.jpg": "/Portfolio-React/static/media/agam.c79b38c815999a0eabeb.jpg",
     "static/media/harsh.jpg": "/Portfolio-React/static/media/harsh.12ce4795a91c29bf1485.jpg",
@@ -16,10 +16,10 @@
     "static/media/aditya.jpg": "/Portfolio-React/static/media/aditya.2466c12feff8dfa0b643.jpg",
     "index.html": "/Portfolio-React/index.html",
     "main.d366efdf.css.map": "/Portfolio-React/static/css/main.d366efdf.css.map",
-    "main.04c55ce2.js.map": "/Portfolio-React/static/js/main.04c55ce2.js.map"
+    "main.7eb79bee.js.map": "/Portfolio-React/static/js/main.7eb79bee.js.map"
   },
   "entrypoints": [
     "static/css/main.d366efdf.css",
-    "static/js/main.04c55ce2.js"
+    "static/js/main.7eb79bee.js"
   ]
 }
