@@ -3,6 +3,7 @@ import './portfoliyo.css'
 
 import IMG1 from '../../assets/portfoliyo-1.png'
 import IMG2 from '../../assets/portfoliyo-2.jpeg'
+import IMG3 from '../../assets/portfoliyo-3.png'
 
 const data = [
   {
@@ -20,6 +21,13 @@ const data = [
     discription: '"Train Food Ordering System": A web project that revolutionizes the way food is ordered on trains. Experience the future with drone delivery and on-station options. Utilizing technologies like HTML, CSS, Bootstrap for frontend, and Node.js, MongoDB for backend. Customers enjoy ordering during their journey or at stations. Elevate the train dining experience with this innovative solution.',
     github: 'https://github.com/GaurangParmar1810/TrainFoodOrdering.git',
     demo: 'https://trainfoodorder.onrender.com'
+  },
+  {
+    id: 3,
+    image: IMG3,
+    title: 'Driving Test Management System',
+    discription: '"Driving Test Management System": This project is constructed in C language which makes use of a variety of concepts like data structures, multi-threading, pipes, signals,Inter process communication, File I/O, processes, and make-file, etc. The program traverses through all the candidate`s details, performs the necessary driving-related checks then stores the final passed/rejected candidate lists into file and can be run using make-file.',
+    github: 'https://github.com/GaurangParmar1810/TrainFoodOrdering.git'
   }
 ];
 const Portfoliyo = () => {
@@ -41,12 +49,17 @@ const Portfoliyo = () => {
                   <p>{item.discription}</p>
                   <div className="portfoliyo__item-cta">
                     <a href={item.github} className="btn m-auto" target="_blank">Github</a>
-                    <a href={item.demo} className='btn btn-primary m-auto' target="_blank">Live Demo</a>
+                    {item.demo ? (
+  <a href={item.demo} className='btn btn-primary m-auto' target="_blank">Live Demo</a>
+) : null}
                   </div>
                 </div>
+
+                
               </article>
             )
           })
+          
         }
         
       </div>
