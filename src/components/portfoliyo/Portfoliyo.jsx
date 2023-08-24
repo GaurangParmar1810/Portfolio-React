@@ -4,6 +4,8 @@ import './portfoliyo.css'
 import IMG1 from '../../assets/portfoliyo-1.png'
 import IMG2 from '../../assets/portfoliyo-2.jpeg'
 import IMG3 from '../../assets/portfoliyo-3.png'
+import IMG4 from '../../assets/portfoliyo-4.jpg'
+import IMG5 from '../../assets/portfoliyo-5.png'
 
 const data = [
   {
@@ -27,7 +29,21 @@ const data = [
     image: IMG3,
     title: 'Driving Test Management System',
     discription: '"Driving Test Management System": This project is constructed in C language which makes use of a variety of concepts like data structures, multi-threading, pipes, signals,Inter process communication, File I/O, processes, and make-file, etc. The program traverses through all the candidate`s details, performs the necessary driving-related checks then stores the final passed/rejected candidate lists into file and can be run using make-file.',
-    github: 'https://github.com/GaurangParmar1810/TrainFoodOrdering.git'
+    github: 'https://github.com/GaurangParmar1810/DrivingTestManagementSystem.git'
+  },
+  {
+    id: 4,
+    image: IMG4,
+    title: 'Music Playlist Management',
+    discription: '"Music Playlist Management": The data Structures in C++ and OOPs are used in this project, which is centred on managing music playlists. Here user can include/delete songs, add songs to Queue, create/remove playlist and sort the songs of playlist.',
+    github: 'https://github.com/GaurangParmar1810/MusicPlaylistManagement.git'
+  },
+  {
+    id: 5,
+    image: IMG5,
+    title: 'LDPC Decoder',
+    discription: '"LDPC Decoder": LDPC decoder is implemented in C++ langauge using some Data Structures. The communication channel introduces the noise in the original transmitted message which was decoded using LDPC decoding methods.',
+    github: 'https://github.com/GaurangParmar1810/LDPC_Decoder.git'
   }
 ];
 const Portfoliyo = () => {
